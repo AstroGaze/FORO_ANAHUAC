@@ -28,6 +28,15 @@ public class Login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnIng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Profile.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }
