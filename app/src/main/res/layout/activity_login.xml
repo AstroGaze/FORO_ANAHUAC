@@ -67,7 +67,8 @@
         android:backgroundTint="#FE5E08"
         android:elevation="0dp"
         android:text="INGRESAR"
-        android:fontFamily="@font/roboto_black"/>
+        android:fontFamily="@font/roboto_black"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/reg"
@@ -77,7 +78,8 @@
         android:backgroundTint="#FE5E08"
         android:elevation="0dp"
         android:text="REGISTRARTE"
-        android:fontFamily="@font/roboto_black"/>
+        android:fontFamily="@font/roboto_black"
+        android:textColor="@color/white"/>
 
 
 
