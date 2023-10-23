@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19490051789",
+    "project_id": "anahuac-forum",
+    "storage_bucket": "anahuac-forum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19490051789:android:53326ca0b8aaf3a104fb84",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAce3jrn7F6PKhtTBaLOYk4aAU6NTAd2Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

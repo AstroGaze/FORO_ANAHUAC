@@ -40,15 +40,14 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_nombre"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:boxStrokeColor="@color/black"
-            app:hintTextColor="@color/black"
-            colo>
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nombre Completo"
@@ -58,6 +57,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_usuario"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -65,7 +65,6 @@
             app:counterMaxLength="15">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/usuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Usuario"
@@ -73,12 +72,12 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Correo Electronico"
@@ -86,12 +85,12 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_phone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/numeroTel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Numero de celular"
@@ -99,12 +98,12 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/contra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Contraseña"
@@ -112,6 +111,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/regBtn"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#FE5E08"
@@ -121,7 +121,7 @@
             android:layout_marginTop="20dp"/>
 
         <Button
-            android:id="@+id/yaCue"
+            android:id="@+id/Btnn"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
