@@ -11,6 +11,7 @@ public class userHelperClass {
         this.name = name;
         this.userName = userName;
         this.email = email;
+        this.phoneNo = phoneNo;
         this.password = password;
     }
 
