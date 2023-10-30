@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -42,8 +43,7 @@ public class SingUp extends AppCompatActivity {
                 String phoneNo = regPhoneNo.getEditText().getText().toString();
                 String password = regPassword.getEditText().getText().toString();
                 userHelperClass userHelperClass = new userHelperClass(name, userName, email, phoneNo, password);
-                reference.setValue(userHelperClass);
-                reference.setValue("First data storage1");
+                reference.child(phoneNo).setValue(userHelperClass);
             }
         });
     }
