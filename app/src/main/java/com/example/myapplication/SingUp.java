@@ -46,5 +46,6 @@ public class SingUp extends AppCompatActivity {
                 reference.child(phoneNo).setValue(userHelperClass);
             }
         });
+
     }
 }
